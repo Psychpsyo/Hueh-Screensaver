@@ -1,0 +1,472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Hueh Screensaver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Hueh Screensaver.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="HuehBitmaps\hueh.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\viveHueh.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0002.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0003.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0004.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0005.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0006.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0007.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0008.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0009.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0010.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0011.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0012.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0013.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0014.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0015.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0016.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0017.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0018.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0019.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0020.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0021.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0022.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0023.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0024.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0025.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0026.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0027.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0028.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0029.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0030.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0031.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0032.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0033.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0034.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0035.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0036.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0037.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0038.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0039.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0040.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0041.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0042.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0043.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0044.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0045.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0046.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0047.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0048.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0049.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0050.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0051.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0052.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0053.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0055.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0056.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0057.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0058.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0059.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0060.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0061.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0062.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0063.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0064.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0065.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0066.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0067.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0068.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0069.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0070.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0071.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0072.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0073.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0074.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0075.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0076.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0077.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0078.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0079.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0080.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0081.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0082.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0083.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0084.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0085.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0086.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0087.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0088.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0089.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0090.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0091.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0092.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0093.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0094.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0095.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0096.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0097.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0098.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0099.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0100.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0101.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0102.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0103.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0104.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0105.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0106.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0107.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0108.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0110.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0111.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0112.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0113.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0114.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0115.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0116.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0117.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0118.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0119.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0120.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0121.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0122.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0123.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0124.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0125.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0126.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0127.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0128.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0129.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0130.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0131.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0132.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0133.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0134.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0135.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0136.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0138.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0139.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0140.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0141.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0142.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0143.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0144.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0145.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0146.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0147.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="HuehBitmaps\0148.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

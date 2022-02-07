@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{DE901130-B2CC-4E32-B0FE-CAE30C4C35EE}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>HuehScreensaver</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <TargetExt>.scr</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>scrnsavw.lib;Comctl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Hueh Screensaver.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Hueh Screensaver.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="HuehBitmaps\0002.bmp" />
+    <Image Include="HuehBitmaps\0003.bmp" />
+    <Image Include="HuehBitmaps\0004.bmp" />
+    <Image Include="HuehBitmaps\0005.bmp" />
+    <Image Include="HuehBitmaps\0006.bmp" />
+    <Image Include="HuehBitmaps\0007.bmp" />
+    <Image Include="HuehBitmaps\0008.bmp" />
+    <Image Include="HuehBitmaps\0009.bmp" />
+    <Image Include="HuehBitmaps\0010.bmp" />
+    <Image Include="HuehBitmaps\0011.bmp" />
+    <Image Include="HuehBitmaps\0012.bmp" />
+    <Image Include="HuehBitmaps\0013.bmp" />
+    <Image Include="HuehBitmaps\0014.bmp" />
+    <Image Include="HuehBitmaps\0015.bmp" />
+    <Image Include="HuehBitmaps\0016.bmp" />
+    <Image Include="HuehBitmaps\0017.bmp" />
+    <Image Include="HuehBitmaps\0018.bmp" />
+    <Image Include="HuehBitmaps\0019.bmp" />
+    <Image Include="HuehBitmaps\0020.bmp" />
+    <Image Include="HuehBitmaps\0021.bmp" />
+    <Image Include="HuehBitmaps\0022.bmp" />
+    <Image Include="HuehBitmaps\0023.bmp" />
+    <Image Include="HuehBitmaps\0024.bmp" />
+    <Image Include="HuehBitmaps\0025.bmp" />
+    <Image Include="HuehBitmaps\0026.bmp" />
+    <Image Include="HuehBitmaps\0027.bmp" />
+    <Image Include="HuehBitmaps\0028.bmp" />
+    <Image Include="HuehBitmaps\0029.bmp" />
+    <Image Include="HuehBitmaps\0030.bmp" />
+    <Image Include="HuehBitmaps\0031.bmp" />
+    <Image Include="HuehBitmaps\0032.bmp" />
+    <Image Include="HuehBitmaps\0033.bmp" />
+    <Image Include="HuehBitmaps\0034.bmp" />
+    <Image Include="HuehBitmaps\0035.bmp" />
+    <Image Include="HuehBitmaps\0036.bmp" />
+    <Image Include="HuehBitmaps\0037.bmp" />
+    <Image Include="HuehBitmaps\0038.bmp" />
+    <Image Include="HuehBitmaps\0039.bmp" />
+    <Image Include="HuehBitmaps\0040.bmp" />
+    <Image Include="HuehBitmaps\0041.bmp" />
+    <Image Include="HuehBitmaps\0042.bmp" />
+    <Image Include="HuehBitmaps\0043.bmp" />
+    <Image Include="HuehBitmaps\0044.bmp" />
+    <Image Include="HuehBitmaps\0045.bmp" />
+    <Image Include="HuehBitmaps\0046.bmp" />
+    <Image Include="HuehBitmaps\0047.bmp" />
+    <Image Include="HuehBitmaps\0048.bmp" />
+    <Image Include="HuehBitmaps\0049.bmp" />
+    <Image Include="HuehBitmaps\0050.bmp" />
+    <Image Include="HuehBitmaps\0051.bmp" />
+    <Image Include="HuehBitmaps\0052.bmp" />
+    <Image Include="HuehBitmaps\0053.bmp" />
+    <Image Include="HuehBitmaps\0055.bmp" />
+    <Image Include="HuehBitmaps\0056.bmp" />
+    <Image Include="HuehBitmaps\0057.bmp" />
+    <Image Include="HuehBitmaps\0058.bmp" />
+    <Image Include="HuehBitmaps\0059.bmp" />
+    <Image Include="HuehBitmaps\0060.bmp" />
+    <Image Include="HuehBitmaps\0061.bmp" />
+    <Image Include="HuehBitmaps\0062.bmp" />
+    <Image Include="HuehBitmaps\0063.bmp" />
+    <Image Include="HuehBitmaps\0064.bmp" />
+    <Image Include="HuehBitmaps\0065.bmp" />
+    <Image Include="HuehBitmaps\0066.bmp" />
+    <Image Include="HuehBitmaps\0067.bmp" />
+    <Image Include="HuehBitmaps\0068.bmp" />
+    <Image Include="HuehBitmaps\0069.bmp" />
+    <Image Include="HuehBitmaps\0070.bmp" />
+    <Image Include="HuehBitmaps\0071.bmp" />
+    <Image Include="HuehBitmaps\0072.bmp" />
+    <Image Include="HuehBitmaps\0073.bmp" />
+    <Image Include="HuehBitmaps\0074.bmp" />
+    <Image Include="HuehBitmaps\0075.bmp" />
+    <Image Include="HuehBitmaps\0076.bmp" />
+    <Image Include="HuehBitmaps\0077.bmp" />
+    <Image Include="HuehBitmaps\0078.bmp" />
+    <Image Include="HuehBitmaps\0079.bmp" />
+    <Image Include="HuehBitmaps\0080.bmp" />
+    <Image Include="HuehBitmaps\0081.bmp" />
+    <Image Include="HuehBitmaps\0082.bmp" />
+    <Image Include="HuehBitmaps\0083.bmp" />
+    <Image Include="HuehBitmaps\0084.bmp" />
+    <Image Include="HuehBitmaps\0085.bmp" />
+    <Image Include="HuehBitmaps\0086.bmp" />
+    <Image Include="HuehBitmaps\0087.bmp" />
+    <Image Include="HuehBitmaps\0088.bmp" />
+    <Image Include="HuehBitmaps\0089.bmp" />
+    <Image Include="HuehBitmaps\0090.bmp" />
+    <Image Include="HuehBitmaps\0091.bmp" />
+    <Image Include="HuehBitmaps\0092.bmp" />
+    <Image Include="HuehBitmaps\0093.bmp" />
+    <Image Include="HuehBitmaps\0094.bmp" />
+    <Image Include="HuehBitmaps\0095.bmp" />
+    <Image Include="HuehBitmaps\0096.bmp" />
+    <Image Include="HuehBitmaps\0097.bmp" />
+    <Image Include="HuehBitmaps\0098.bmp" />
+    <Image Include="HuehBitmaps\0099.bmp" />
+    <Image Include="HuehBitmaps\0100.bmp" />
+    <Image Include="HuehBitmaps\0101.bmp" />
+    <Image Include="HuehBitmaps\0102.bmp" />
+    <Image Include="HuehBitmaps\0103.bmp" />
+    <Image Include="HuehBitmaps\0104.bmp" />
+    <Image Include="HuehBitmaps\0105.bmp" />
+    <Image Include="HuehBitmaps\0106.bmp" />
+    <Image Include="HuehBitmaps\0107.bmp" />
+    <Image Include="HuehBitmaps\0108.bmp" />
+    <Image Include="HuehBitmaps\0110.bmp" />
+    <Image Include="HuehBitmaps\0111.bmp" />
+    <Image Include="HuehBitmaps\0112.bmp" />
+    <Image Include="HuehBitmaps\0113.bmp" />
+    <Image Include="HuehBitmaps\0114.bmp" />
+    <Image Include="HuehBitmaps\0115.bmp" />
+    <Image Include="HuehBitmaps\0116.bmp" />
+    <Image Include="HuehBitmaps\0117.bmp" />
+    <Image Include="HuehBitmaps\0118.bmp" />
+    <Image Include="HuehBitmaps\0119.bmp" />
+    <Image Include="HuehBitmaps\0120.bmp" />
+    <Image Include="HuehBitmaps\0121.bmp" />
+    <Image Include="HuehBitmaps\0122.bmp" />
+    <Image Include="HuehBitmaps\0123.bmp" />
+    <Image Include="HuehBitmaps\0124.bmp" />
+    <Image Include="HuehBitmaps\0125.bmp" />
+    <Image Include="HuehBitmaps\0126.bmp" />
+    <Image Include="HuehBitmaps\0127.bmp" />
+    <Image Include="HuehBitmaps\0128.bmp" />
+    <Image Include="HuehBitmaps\0129.bmp" />
+    <Image Include="HuehBitmaps\0130.bmp" />
+    <Image Include="HuehBitmaps\0131.bmp" />
+    <Image Include="HuehBitmaps\0132.bmp" />
+    <Image Include="HuehBitmaps\0133.bmp" />
+    <Image Include="HuehBitmaps\0134.bmp" />
+    <Image Include="HuehBitmaps\0135.bmp" />
+    <Image Include="HuehBitmaps\0136.bmp" />
+    <Image Include="HuehBitmaps\0138.bmp" />
+    <Image Include="HuehBitmaps\0139.bmp" />
+    <Image Include="HuehBitmaps\0140.bmp" />
+    <Image Include="HuehBitmaps\0141.bmp" />
+    <Image Include="HuehBitmaps\0142.bmp" />
+    <Image Include="HuehBitmaps\0143.bmp" />
+    <Image Include="HuehBitmaps\0144.bmp" />
+    <Image Include="HuehBitmaps\0145.bmp" />
+    <Image Include="HuehBitmaps\0146.bmp" />
+    <Image Include="HuehBitmaps\0147.bmp" />
+    <Image Include="HuehBitmaps\0148.bmp" />
+    <Image Include="HuehBitmaps\hueh.bmp" />
+    <Image Include="HuehBitmaps\viveHueh.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
